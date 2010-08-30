@@ -1,0 +1,7 @@
+== In Git
+
+=== New Features
+* translate i18n keys inside your cucumber features
+* replace i18n keys inside your features
+
+=== Bugfixes

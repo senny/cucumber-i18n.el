@@ -1,0 +1,34 @@
+h1. cucumber-i18n.el
+
+h2. Installation
+
+just drop cucumber-i18n.el in your load-path and put the following in your .emacs
+<pre>(require 'cucumber-i18n)
+</pre>
+
+h2. Usage
+
+To use cucumber-i18n.el just open a feature file and execute M-x cucumber-i18n-translate. This will replace all the occurences of the 'cucumber-i18n-key-regexp' with an overlay containing the translation.
+
+By default the key pattern matches:
+key:i.am.a.key
+
+h2. Community
+
+h3. Got a question?
+
+Just send me a message and I'll try to get to you as soon as possible.
+
+h3. Found a bug?
+
+Please register a new issue.
+
+h3. Fixed something?
+
+1. Fork cucumber-i18n.el
+2. Create a topic branch - `git checkout -b my_branch`
+3. Make your changes and update the History.txt file
+4. Push to your branch - `git push origin my_branch`
+5. Send me a pull-request for your topic branch
+6. That's it!
+
